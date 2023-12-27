@@ -1,0 +1,174 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #a9912a;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Header styles */
+.header {
+    background-color: #a9912a;
+    color: white;
+    padding: 2em 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+/* Navigation styles */
+.nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #d9d9d9;
+}
+
+/* Main content styles */
+.content {
+    padding: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #a9912a;
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Form styles */
+input, textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #a9912a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Social links styles */
+.social-links a {
+    text-decoration: none;
+    color: #a9912a;
+    background-color: #f2f2f2;
+    padding: 5px 15px;
+    border-radius: 4px;
+    transition: background-color .3s ease;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    background-color: #e2e2e2;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* About page specific styles */
+.about-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skill {
+    background-color: #a9912a;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Add this to your styles.css */
+.error-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.error-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.error-container p {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+.error-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.error-container a:hover {
+    background-color: #555;
+}
+    
